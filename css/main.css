@@ -236,7 +236,7 @@ a:hover, a:focus {
 
 .navbar {
     border: 0px solid rgba(0, 0, 0, 0);
-    background: #1976D2;
+    background: #fff;
     margin: auto;
     min-height: 60px;
     padding-top: 8px;
@@ -250,13 +250,13 @@ a:hover, a:focus {
 }
 
 .navbar-inverse .navbar-nav > li > a, .navbar-nav a {
-    color: #ffffff;
+    color: #000;
     font-size: 14px;
     letter-spacing: 1px;
 }
 
 .navbar-inverse .navbar-nav > li > a:hover {
-    color: #ffffff;
+    color: #1976D2;
     opacity: 0.6;
 }
 
@@ -267,7 +267,7 @@ a:hover, a:focus {
 }
 
 .navbar-inverse .navbar-collapse, .navbar-inverse .navbar-form {
-    border-color: #4ec3cd;
+    border-color: #000;
 }
 
 .navbar-inverse .navbar-toggle {
@@ -276,15 +276,20 @@ a:hover, a:focus {
 
 .logo img {
 	margin-top: 6px;
+  width: 180px;
 }
 
+.logo0 img {
+  margin-top: 6px;
+  width: 250px;
+}
 
 
 /* ==========================================================================
    Main styles
    ========================================================================== */
 header {
-  background: url(../img/solarFarm.jpg) no-repeat center center;
+  background: url(../img/solarFarm0.jpg) no-repeat center center;
   width: 100%;
   padding: 20px 10px 60px 10px;
   height: 100vh;
@@ -362,14 +367,38 @@ header {
 }
 
 .pad-sm {
-	padding: 80px 0px;
+	padding: 100px 0px;
 }
 
 .pad-xs {
 	padding: 30px 0px;
 }
 
+.fullscreen {
+    width:100%;
+    min-height:100%;
+    background-repeat:no-repeat;
+    background-position:50% 50%;
+    background-position:50% 50%\9 !important;
+}
 
+#introSite {
+  text-align: justify;
+
+}
+
+#introSite p {
+  color: #333;
+}
+
+#logoIntro {
+  width: 300px;
+  padding-top: 50px;
+}
+
+.titleExplanation h2{
+  color: #000;
+}
 
 #be-the-first {
   background: url(../img/blueBackground.jpg) #231f20 no-repeat center center fixed;
@@ -378,6 +407,7 @@ header {
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
+  padding-top: -300px;
 }
 
 hr.line {
@@ -404,20 +434,6 @@ hr.line {
     color: #43A047;
 }
 
-.iphone {
-    position: relative;
-    height: 200px;
-}
-
-.iphone img {
-    margin: 0 auto;
-    position: absolute;
-    left: 0;
-    right: 0;
-    width: 100%;
-    max-width: 440px;
-}
-
 #getting-started .responsive-image {
     width: 70%;
     padding-top: 30px;
@@ -425,7 +441,7 @@ hr.line {
 }
 
 .getting-started-info-row {
-    padding: 100px 0 100px 0;
+    padding-top: 100px;
 }
 
 #invite {
@@ -829,6 +845,9 @@ Hover the image
       background-attachment: scroll;
   }
 
+#be-the-first iframe{
+  max-height: 360px;
+  padding-top: -200px;
 }
 
 
