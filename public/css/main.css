@@ -39,6 +39,7 @@ h3 {
   line-height: 26px;
   color: #ffffff;
   font-weight: 400;
+  padding-bottom: 50px;
 }
 
 p {
@@ -227,7 +228,7 @@ a:hover, a:focus {
 
 .navbar {
     border: 0px solid rgba(0, 0, 0, 0);
-    background: #fff;
+    background: rgba(25, 118, 210, 0.3  );
     margin: auto;
     min-height: 60px;
     padding-top: 8px;
@@ -268,6 +269,7 @@ a:hover, a:focus {
 .logo img {
 	margin-top: 6px;
   width: 180px;
+  margin-left: 25px;
 }
 
 .logo0 img {
@@ -401,6 +403,12 @@ header {
   padding-top: -300px;
 }
 
+
+#videoframe {
+  padding-top: 80px;
+  padding-bottom: -80px;
+}
+
 hr.line {
 	width: 100%;
 	border: 2px solid;
@@ -458,11 +466,16 @@ footer {
   color: inherit;
 }
 
+
+
+
+
+
 /*  ===========================================
     Projects Selection
     ===========================================  */
 
-#pricing {
+#projects {
   background-color: #1976D2;
 }
 
@@ -504,6 +517,40 @@ footer {
     border-radius: 0 0 5px 5px;
     margin-top: -15px;
 }
+
+
+
+#pricing {
+  background: #70cbce;
+}
+
+.pricing-container {
+  padding-left: 0px;
+  padding-right: 0px;
+}
+
+.pricing-table {
+  background: transparent;
+  margin-bottom: 50px;
+  margin-top: 0px;
+  -webkit-transition: all 0.25s ease-in-out;
+  -moz-transition: all 0.25s ease-in-out;
+  -o-transition: all 0.25s ease-in-out;
+  transition: all 0.25s ease-in-out;
+}
+
+
+.price {
+    background: none repeat scroll 0 0 #231f20;
+    color: #FFFFFF;
+    font-size: 32px;
+    font-weight: bold;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+
+
+
 
 .col-item .price
 {
@@ -708,9 +755,10 @@ Hover the image
       background-attachment: scroll;
   }
 
-#be-the-first iframe{
-  max-height: 360px;
-  padding-top: -200px;
+
+#videoframe {
+  padding: 0 20px 0 20px;
+}
 
 }
 
