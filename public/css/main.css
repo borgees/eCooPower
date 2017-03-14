@@ -228,7 +228,7 @@ a:hover, a:focus {
 
 .navbar {
     border: 0px solid rgba(0, 0, 0, 0);
-    background: rgba(25, 118, 210, 0.3  );
+    background: #E0E0E0 /*rgba(25, 118, 210, 0.3)*/;
     margin: auto;
     min-height: 60px;
     padding-top: 8px;
@@ -275,6 +275,11 @@ a:hover, a:focus {
 .logo0 img {
   margin-top: 6px;
   width: 250px;
+}
+
+.logo1 img {
+  padding-bottom: 40px;
+  width: 350px;
 }
 
 
@@ -460,11 +465,6 @@ footer {
   background: #212121;
   padding: 40px 0px;
 }
-/*
-.fa:hover {
-  opacity: 0.9;
-  color: #fff;
-}*/
 
 .fa-twitter:hover {
     color: #4099FF;
@@ -477,22 +477,10 @@ footer {
 .fa-youtube-play:hover {
     color: #e52d27;
 }
-
+/*
 .fa-rss {
     color: #FF6600;
-}
-
-.fa-vine {
-    color: #00a478;
-}
-
-.fa-flickr {
-    color: #ff0084;
-}
-
-.fa-twitch {
-    color: #6441A5;
-}
+}*/
 
 .fa-linkedin:hover {
     color: #007bb6;
