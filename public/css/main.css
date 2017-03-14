@@ -279,7 +279,7 @@ a:hover, a:focus {
 
 .logo1 img {
   padding-bottom: 40px;
-  width: 350px;
+  width: 350px; 
 }
 
 
@@ -287,7 +287,7 @@ a:hover, a:focus {
    Main styles
    ========================================================================== */
 header {
-  background: url(../img/solarFarm0.jpg) no-repeat center center;
+  background: url(../img/header01.jpeg) no-repeat /*center*/ center;
   width: 100%;
   padding: 20px 10px 60px 10px;
   height: 100vh;
@@ -707,7 +707,16 @@ Hover the image
     font-weight: bold;
 }
 
+#partnerImg {
+  display: flex;
+  align-items: center;
+}
 
+#partnerImg img {
+  width: 160px;
+  vertical-align: bottom;
+  margin-top: 10%;
+}
 
 
 /* ==========================================================================
