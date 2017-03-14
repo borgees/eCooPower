@@ -267,9 +267,9 @@ a:hover, a:focus {
 }
 
 .logo img {
-	margin-top: 6px;
-  width: 180px;
-  margin-left: 25px;
+	margin-top: 2px;
+  width: 280px;
+  margin-left: 5px;
 }
 
 .logo0 img {
@@ -277,9 +277,9 @@ a:hover, a:focus {
   width: 250px;
 }
 
-.logo1 img {
+.logo1 {
   padding-bottom: 40px;
-  width: 350px; 
+  width: 400px; 
 }
 
 
@@ -390,8 +390,8 @@ header {
 }
 
 #logoIntro {
-  width: 300px;
-  padding-top: 50px;
+  width: 320px;
+  padding-top: 45px;
 }
 
 .titleExplanation h2{
@@ -708,7 +708,6 @@ Hover the image
 }
 
 #partnerImg {
-  display: flex;
   align-items: center;
 }
 
