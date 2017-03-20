@@ -286,7 +286,7 @@ a:hover, a:focus {
    Main styles
    ========================================================================== */
 header {
-  background: url(../img/heolica.jpeg) no-repeat /*center*/ center;
+  background: url(../img/heolica.jpg) no-repeat /*center*/ center;
   width: 100%;
   padding: 20px 10px 60px 10px;
   height: 100vh;
@@ -388,9 +388,14 @@ header {
   color: #333;
 }
 
-#logoIntro {
-  width: 320px;
-  padding-top: 45px;
+#infoGraph {
+  width: 500px;
+  margin-left: -15px;
+  margin-top: -50px;
+}
+
+#infoText {
+  margin-top: 100px;
 }
 
 .titleExplanation h2{
@@ -476,10 +481,10 @@ footer {
 .fa-youtube-play:hover {
     color: #e52d27;
 }
-/*
-.fa-rss {
+
+.fa-medium {
     color: #FF6600;
-}*/
+}
 
 .fa-linkedin:hover {
     color: #007bb6;
